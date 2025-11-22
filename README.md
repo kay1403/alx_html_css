@@ -1,5 +1,3 @@
----
-
 # **CSS Basic Project – ALX Front-End**
 
 This project is part of the **ALX Front-End Curriculum**, focusing on applying foundational HTML and CSS concepts to build a simple, responsive webpage **without any external libraries**.
