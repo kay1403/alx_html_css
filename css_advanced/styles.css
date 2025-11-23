@@ -4,8 +4,7 @@
   padding: 0;
 }
 
-html,
-body {
+html, body {
   height: 100%;
 }
 
@@ -17,13 +16,7 @@ body {
 
 .hero {
   min-height: 85vh;
-  background:
-    linear-gradient(
-      rgba(3, 21, 36, 0.8) 0%,
-      rgba(7, 22, 41, 0.9) 50%,
-      #071629 100%
-    ),
-    url("https://uploads.onecompiler.io/43kq4m26v/445ekkbp6/02783812f9da308b090ff05e9e86fa2affd8ea9f.png");
+  background: linear-gradient(rgba(3, 21, 36, 0.8) 0%, rgba(7, 22, 41, 0.9) 50%, #071629 100%), url("https://uploads.onecompiler.io/43kq4m26v/445ekkbp6/02783812f9da308b090ff05e9e86fa2affd8ea9f.png");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -232,46 +225,17 @@ footer {
   padding: 30px 20px;
   margin-top: 30px;
   height: 300px;
-  position: relative;
-}
-
-.footer-top {
-  max-width: 1100px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  position: absolute;
-  top: 20px;
-  left: 0;
-  right: 0;
-  padding: 0 20px;
-}
-
-.socials {
-  display: flex;
-  gap: 12px;
-  align-items: center;
-}
-
-.footer-bottom {
-  position: absolute;
-  bottom: 30px;
-  left: 0;
-  right: 0;
-  text-align: center;
-  font-size: 14px;
-  color: #9aa;
 }
 
 @media (max-width: 1000px) {
   h1 {
     font-size: 54px;
   }
+  
   .cards {
     grid-template-columns: repeat(2, 1fr);
   }
+  
   .instructors {
     gap: 18px;
   }
@@ -281,23 +245,29 @@ footer {
   .nav .links {
     display: none;
   }
+  
   h1 {
     font-size: 38px;
   }
+  
   .instructors {
     flex-wrap: wrap;
     justify-content: center;
   }
+  
   .cards {
     grid-template-columns: 1fr;
   }
+  
   .testimonial {
     flex-direction: column;
     text-align: center;
   }
+  
   .features {
     flex-direction: column;
   }
+  
   .faq-grid {
     grid-template-columns: 1fr;
   }
